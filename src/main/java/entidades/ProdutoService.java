@@ -19,6 +19,8 @@ public class ProdutoService {
         }
     }
 
+    /*teste de commit*/
+    
     public void salvarEditarProduto(Produto produto) {
         EntityManager em = entityManagerFactory.createEntityManager();
         try {
